@@ -88,7 +88,7 @@ $(window).scroll(function(){
     menuItems.parent().removeClass("active")
     .end().filter("[href='#"+id+"']").parent().addClass("active");
 
-    // If menu has a dropdown, select parent menu
+    // If menu has a dropdown, select parent menu o
     var currentSetMenu = menuItems.filter("[href='#"+id+"']").parent();
     if(currentSetMenu.hasClass("dropdown-menu")){
         currentSetMenu.parent().addClass("active");
